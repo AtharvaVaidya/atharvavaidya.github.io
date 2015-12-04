@@ -1,0 +1,22 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Swiftly Turing Complete
+tagline:          
+url:              http://atharvavaidya.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           Austin Zheng
+  url:            https://twitter.com/atharva_vaidya
+  email:          atharva.vaidya@drexel.edu
+
+# Custom vars
+version:          1.0.0
+pages_list:  
+  About: '/about'     
+  Projects: '/projects'
+  Archive: '/archive'
+  Feed: '/feed.xml'
