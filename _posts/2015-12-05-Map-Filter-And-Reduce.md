@@ -10,7 +10,9 @@ What are they? They are functions that take functions as an argument.
 Map is used to transform the elements in an array or set. Say you want to multiply each element in an array by 2. How would you do this using a for-loop?
 
 {% highlight swift%}  
-for i in array  { i *= 2 }
+
+for i in 0..<array.count { array[i] *= 2 }
+
 {% endhighlight %}
 
 This is how you would do the same using a map function on the array:
