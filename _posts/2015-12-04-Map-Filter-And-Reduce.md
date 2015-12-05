@@ -3,9 +3,6 @@ layout: post
 title: Map, Filter and Reduce
 ---
 
-
-#Map, Filter and Reduce
-
 What are they? They are functions that take functions as an argument. 
 
 ###Map
