@@ -179,6 +179,50 @@ pre code {
   background-color: transparent;
 }
 
+.swift-code {
+  font: 14 Menlo;
+  padding: 14px;
+  margin-bottom: 14px;
+  background-color: #f8f8f8;
+}
+
+.swift-code p.p1 {
+  margin: 0px 0px 0px 0px;
+  font: 14px Menlo;
+}
+
+.swift-code p.p2 {
+  margin: 0px 0px 0px 0px;
+  font: 14px Menlo;
+  min-height: 16px;
+}
+
+.swift-code p.p3 {
+  margin: 0px 0px 0px 0px;
+  font: 14px Menlo;
+  color: #d12f1b;
+}
+
+.swift-code span.s1 {
+  color: #bb2ca2;
+}
+
+.swift-code span.s2 {
+  color: #4f8187;
+}
+
+.swift-code span.s3 {
+  color: #000000;
+}
+
+.swift-code span.s4 {
+  color: #3d1d81;
+}
+
+.swift-code span.s5 {
+  color: #31595d;
+}
+
 /* Pygments via Jekyll */
 .highlight {
   margin-bottom: 1rem;
