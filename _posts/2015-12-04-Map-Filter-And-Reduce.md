@@ -37,7 +37,7 @@ if i >= 100 { filteredArray.append(i) }
 
 }
 
-{% unhighlight %}
+{% endhighlight %}
 
 This is how it is done using filter:
 
@@ -45,7 +45,7 @@ This is how it is done using filter:
 
 array.filter({\$0 >= 100})
 
-{% unhighlight %}
+{% endhighlight %}
 
 Boom! Just one line of code and done.
 
@@ -60,7 +60,7 @@ let array = [2.2, 1.2, 2.4, 5.5, 7.8]
 
 let mean = array.reduce(0, +) / Double(array.count)
 
-{% unhighlight %}
+{% endhighlight %}
 
 The first argument in the funtion is the initial element and the second argument is a function that specifies how to combine two elements. Since + is a funtion in swift we don't even need to write {% highlight swift%}  {\$0 + \$1}. {%unhighlight%}
 
