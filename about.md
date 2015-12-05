@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-My name is Atharva Vaidya. I write software and play soccer.
+Hello there! My name is Atharva Vaidya. I write software and play soccer. Currently I am a freshman at the University of British Columbia majoring in Computer Science. I'm from Thane, India and I currently live in Kelowna, BC, Canada.
+
 
 In terms of programming languages, I am most proficient currently with **[C++][c-link]**, **[Objective-C][objc-link]**, and **[Swift][swift-link]**, and somewhat proficient with **[Python][python-link]**.
-
 
 
 My GitHub username is [atharvavaidya][az-gh-link], and my Twitter username is also [@atharva_vaidya][az-tw-link]. You can find me on LinkedIn [here][az-li-link]. My email: [contact@atharva.me][mail-link].
