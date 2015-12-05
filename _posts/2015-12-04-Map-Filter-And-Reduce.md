@@ -62,5 +62,5 @@ let mean = array.reduce(0, +) / Double(array.count)
 
 {% endhighlight %}
 
-The first argument in the funtion is the initial element and the second argument is a function that specifies how to combine two elements. Since + is a funtion in swift we don't even need to write {% highlight swift%}  {\$0 + \$1}. {%unhighlight%}
+The first argument in the funtion is the initial element and the second argument is a function that specifies how to combine two elements. Since + is a funtion in swift we don't even need to write {% highlight swift%}  {\$0 + \$1}. {%endhighlight%}
 
