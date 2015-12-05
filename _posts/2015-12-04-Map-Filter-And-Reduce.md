@@ -16,7 +16,7 @@ for i in array  { i *= 2 }
 This is how you would do the same using a map function on the array:
 
 {% highlight swift%}  
-array.map({\$0 * 2})
+array.map({$0 * 2})
 {% endhighlight %}
 
 Now, what's the big difference here? Map evaluates the statement inside those curly braces and assigns that value to the corresponding element in the array.
@@ -40,7 +40,7 @@ This is how it is done using filter:
 
 {% highlight swift%}  
 
-array.filter({\$0 >= 100})
+array.filter({$0 >= 100})
 
 {% endhighlight %}
 
@@ -59,5 +59,5 @@ let mean = array.reduce(0, +) / Double(array.count)
 
 {% endhighlight %}
 
-The first argument in the funtion is the initial element and the second argument is a function that specifies how to combine two elements. Since + is a funtion in swift we don't even need to write {% highlight swift%}  {\$0 + \$1}. {%endhighlight%}
+The first argument in the funtion is the initial element and the second argument is a function that specifies how to combine two elements. Since + is a funtion in swift we don't even need to write {% highlight swift%}  {$0 + $1}. {%endhighlight%}
 
