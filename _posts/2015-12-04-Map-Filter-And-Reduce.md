@@ -54,7 +54,7 @@ Boom! Just one line of code and done.
 
 Say you want to get the mean of all elements in an array. You know how you would do it with a for loop, so I'll skip to the reduce implementation.
 
-{%highglight swift%}
+{%highlight swift%}
 
 let array = [2.2, 1.2, 2.4, 5.5, 7.8]
 
