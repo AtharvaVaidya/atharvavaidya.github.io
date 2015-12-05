@@ -1,8 +1,6 @@
 ---
 layout: post
-title: Hello world
+title: Hello World
 ---
 
-This is my new blog! Many thanks to [Joshua Lande's web site][jl-website] for invaluable help configuring Jekyll.
-
-[jl-website]: http://joshualande.com/jekyll-github-pages-poole/
+This is my new blog! I hope to write mostly about Swift and Apple. 
