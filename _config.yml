@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Atharva Vaidya
-tagline:          Turing Complete
+tagline:          
 url:              http://atharva.me
 paginate:         1
 baseurl:          /
