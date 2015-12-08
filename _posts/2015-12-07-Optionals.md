@@ -88,7 +88,7 @@ else {
 }
 {%endhighlight%}
 
-Wanna make this even more compact? Use the nil coalescing operator'??' operator and the code above becomes equivalent to this:
+Wanna make this even more compact? Use the *nil coalescing operator* '??' and the code above becomes equivalent to this:
 
 {%highlight swift%}
 let roomCount = john.residence?.numberOfRooms ?? 0
