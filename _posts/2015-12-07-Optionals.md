@@ -99,8 +99,6 @@ Notice that now we didn't have to force unwrap john.residence.
 
 A problem with the if-let statement is that you cannot use that the scope of roomCount is limited to the if statement. What do you do if you want to use it outside the if statement? This is where the guard statement comes in.
 
-
-
 ###guard
 
 The guard statement is used to exit out of a scope if a certain cond
