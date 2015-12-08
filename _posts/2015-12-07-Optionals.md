@@ -65,6 +65,7 @@ let roomCount = john.residence!.numberOfRooms // Gives you a runtime error becau
 {%endhighlight%}
 
 Here's where if let comes in.
+
 ###if let
 
 Say you don't want the above example to crash. What do you do? Well, you want to check 'if' the residence is not nil, if true then do something otherwise do something else that doesn't crash because residence is nil.
