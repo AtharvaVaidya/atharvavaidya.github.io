@@ -13,13 +13,13 @@ Here's an example:
 
 {%highlight swift%}
 var someVariable: Int?
-{%end highlight%}
+{%endhighlight%}
 
 That '?' is equivalent to saying:
 
 {%highlight swift%}
 var someVariable: Optional<Int>
-{%end highlight%}
+{%endhighlight%}
 
 Notice something about the above type declaration? It means that the variable is an optional *of* type Int. So you have to 'unwrap' them to get their actual value.
 
@@ -27,7 +27,7 @@ How do you 'unwrap' an Optional value? By doing this:
 
 {%highlight swift%}
 someVariable!
-{%end highlight%}
+{%endhighlight%}
 
 The '!' is functionally equivalent to casting the Optional<T> to T.
 
@@ -38,7 +38,7 @@ They are variables that can never be nil once you use them. Their value by defau
 Example:
 {%highlight swift%}
 var i: Int!
-{%end highlight%}
+{%endhighlight%}
 
 ##If let, Guard and Defer
 
@@ -52,19 +52,19 @@ class Person {
 class Residence {
     var numberOfRooms = 1
 }
-{%end highlight%}
+{%endhighlight%}
 
 If you create a new Person instance, its residence property is default initialized to nil, by virtue of being optional. In the code below, john has a residence property value of nil:
 
 {%highlight swift%}
 let john = Person()
-{%end highlight%}
+{%endhighlight%}
 
 If you try to access the numberOfRooms property of this person’s residence, by placing an exclamation mark after residence to force the unwrapping of its value, you trigger a runtime error, because there is no residence value to unwrap:
 
 {%highlight swift%}
 let roomCount = john.residence!.numberOfRooms // Gives you a runtime error because John's residence is nil.
-{%end highlight%}
+{%endhighlight%}
 
 Here's where if let comes in.
 ###if let
@@ -75,7 +75,7 @@ Say you don't want the above example to crash. What do you do? Well, you want to
 if john.residence != nil {
   let roomCount = john.residence!.numberOfRooms
 }
-{%end highlight%}
+{%endhighlight%}
 
 The if-let statement lets you do this in a much more compact way:
 
@@ -87,13 +87,13 @@ else {
   let roomCount = 0
   ///Do something
 }
-{%end highlight%}
+{%endhighlight%}
 
 Wanna make this even more compact? Use the nil coalescing operator'??' operator and the code above becomes equivalent to this:
 
 {%highlight swift%}
 let roomCount = john.residence?.numberOfRooms ?? 0
-{%end highlight%}
+{%endhighlight%}
 
 Notice that now we didn't have to force unwrap john.residence.
 
