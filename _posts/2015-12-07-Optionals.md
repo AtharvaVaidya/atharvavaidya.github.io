@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Optionals
+date: 2015-12-07 23:50:00
+tags: swift
 ---
 
 What are they?
@@ -19,7 +21,7 @@ That '?' is equivalent to saying:
 var someVariable: Optional<Int>
 {%endhighlight%}
 
-Notice something about the above type declaration? It means that the variable is an optional *of* type Int. So you have to 'unwrap' them to get their actual value.
+Notice something about the above type declaration? It means that the variable is an optional *of* type `Int`. So you have to 'unwrap' them to get their actual value.
 
 How do you 'unwrap' an Optional value? By doing this:
 
@@ -58,7 +60,7 @@ If you create a new Person instance, its residence property is default initializ
 let john = Person()
 {%endhighlight%}
 
-If you try to access the numberOfRooms property of this person’s residence, by placing an exclamation mark after residence to force the unwrapping of its value, you trigger a runtime error, because there is no residence value to unwrap:
+If you try to access the `numberOfRooms` property of this person’s residence, by placing an exclamation mark after residence to force the unwrapping of its value, you trigger a runtime error, because there is no residence value to unwrap:
 
 {%highlight swift%}
 let roomCount = john.residence!.numberOfRooms // Gives you a runtime error because John's residence is nil.
@@ -96,7 +98,7 @@ let roomCount = john.residence?.numberOfRooms ?? 0
 
 Notice that now we didn't have to force unwrap john.residence.
 
-A problem with the if-let statement is that you cannot use that the scope of roomCount is limited to the if statement. What do you do if you want to use it outside the if statement? This is where the guard statement comes in.
+A problem with the if-let statement is that you cannot use that the scope of `roomCount` is limited to the if statement. What do you do if you want to use it outside the if statement? This is where the guard statement comes in.
 
 ###guard
 
