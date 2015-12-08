@@ -5,9 +5,9 @@ title: Optionals
 
 What are they?
 
-Optionals are variables that can have to 2 states: No value and some value.
+Optionals are variables that can have 2 states: No value and some value.
 
-This is from the documentation: "The type Optional<Wrapped> is an enumeration with two cases, None and Some(Wrapped), which are used to represent values that may or may not be present. Any type can be explicitly declared to be (or implicitly converted to) an optional type. If you don’t provide an initial value when you declare an optional variable or property, its value automatically defaults to nil."
+This is from the documentation: *"The type Optional<Wrapped> is an enumeration with two cases, None and Some(Wrapped), which are used to represent values that may or may not be present. Any type can be explicitly declared to be (or implicitly converted to) an optional type. If you don’t provide an initial value when you declare an optional variable or property, its value automatically defaults to nil."*
 
 Here's an example:
 
