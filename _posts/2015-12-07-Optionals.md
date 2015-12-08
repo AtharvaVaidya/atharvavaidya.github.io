@@ -13,12 +13,6 @@ Here's an example:
 var someVariable: Int?
 {%endhighlight%}
 
-````Swift
-
-someVariable!
-
-````
-
 That '?' is equivalent to saying:
 
 {%highlight swift%}
