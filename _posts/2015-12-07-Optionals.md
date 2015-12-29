@@ -107,7 +107,7 @@ The guard statement is used to exit out of a scope if a certain condition is met
 {%highlight swift%}
 func someFunction() {
 
-guard let roomCount = john.residence.numberOfRooms else {return}
+  guard let roomCount = john.residence.numberOfRooms else {return}
 
 }
 {%endhighlight%}
