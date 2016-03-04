@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello there! My name is Atharva Vaidya. I write software and play soccer. Currently I am a freshman at Drexel University majoring in Computer Science. I'm from Thane, India and I currently live in Philadelphia, PA.
+Hello there! My name is Atharva Vaidya. I write software (mostly iOS apps) and play soccer. Currently I am a freshman at Drexel University majoring in Computer Science. I'm from Thane, India and I currently live in Philadelphia, PA.
 
 
 In terms of programming languages, I am most proficient currently with **[C++][c-link]**, **[Objective-C][objc-link]**, and **[Swift][swift-link]**, and somewhat proficient with **[Python][python-link]**.
