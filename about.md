@@ -14,7 +14,7 @@ My GitHub username is [atharvavaidya][az-gh-link], and my Twitter username is al
 
 [c-link]:         https://en.wikipedia.org/wiki/C%2B%2B
 [objc-link]:      https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
-[swift-link]:     https://developer.apple.com/swift
+[swift-link]:     https://developer.apple.com/swift/
 [python-link]:    https://www.python.org/
 
 [az-gh-link]:     https://github.com/atharvavaidya/
