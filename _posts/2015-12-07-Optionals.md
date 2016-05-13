@@ -31,7 +31,7 @@ someVariable!
 
 The '!' is functionally equivalent to casting the Optional<T> to T.
 
-###Implicitly Unwrapped Optional
+### Implicitly Unwrapped Optional
 
 They are variables that can never be nil once you use them. Their value by default if none is assigned is nil. So once you use them you don't have to unwrap them with '!'.
 
@@ -40,7 +40,7 @@ Example:
 var i: Int!
 {%endhighlight%}
 
-##If let, Guard and Defer
+## If let, Guard and Defer
 
 When working with optionals, your code can become error-prone. Conside this example from the documentation:
 
@@ -68,7 +68,7 @@ let roomCount = john.residence!.numberOfRooms // Gives you a runtime error becau
 
 Here's where if let comes in.
 
-###if let
+### if let
 
 Say you don't want the above example to crash. What do you do? Well, you want to check 'if' the residence is not nil, if true then do something otherwise do something else that doesn't crash because residence is nil.
 {%highlight swift%}
@@ -100,7 +100,7 @@ Notice that now we didn't have to force unwrap john.residence.
 
 A problem with the if-let statement is that you cannot use that the scope of `roomCount` is limited to the if statement. What do you do if you want to use it outside the if statement? This is where the guard statement comes in.
 
-###guard
+### guard
 
 The guard statement is used to exit out of a scope if a certain condition is met which means that the code inside the guard statement is only executed if a certain condition is *not* met. Here's an example:
 
