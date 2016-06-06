@@ -8,15 +8,10 @@ kramdown:
   syntax_highlighter: rouge
 # Permalinks
 permalink:        pretty
-<<<<<<< Updated upstream
 
-=======
+
 relative_permalinks: true
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of a48986b... Update _config.yml
->>>>>>> Stashed changes
 # Setup
 title:            Atharva Vaidya
 tagline:          
