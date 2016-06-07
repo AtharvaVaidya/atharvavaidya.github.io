@@ -100,7 +100,8 @@ A problem with the if-let statement is that you cannot use that the scope of `ro
 
 The guard statement is used to exit out of a scope if a certain condition is met which means that the code inside the guard statement is only executed if a certain condition is *not* met. Here's an example:
 
-{%highlight swift%}func someFunction() 
+{%highlight swift%}
+func someFunction() 
 { 
     guard let roomCount = john.residence.numberOfRooms else {return} 
 }
