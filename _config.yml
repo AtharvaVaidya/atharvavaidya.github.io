@@ -27,3 +27,4 @@ pages_list:
   Projects: '/projects'
   Archive: '/archive'
   Feed: '/feed.xml'
+  Resume: '/resume'
