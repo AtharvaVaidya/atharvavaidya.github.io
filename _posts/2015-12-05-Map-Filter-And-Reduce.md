@@ -22,10 +22,9 @@ Now, what's the big difference here? Map evaluates the statement inside those cu
 Say you want to remove all numbers below 100 from an array. How would you do this using a for loop?
 
 {% highlight swift%}var filteredArray: [Int] = []
-for i in array {
-
-if i >= 100 { filteredArray.append(i) }
-
+for i in array 
+{
+  if i >= 100 { filteredArray.append(i) }
 }{% endhighlight %}
 
 This is how it is done using filter:
