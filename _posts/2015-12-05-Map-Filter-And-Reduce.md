@@ -5,7 +5,7 @@ title: Map, Filter and Reduce
 
 What are they? They are functions that take functions as an argument. 
 
-###Map
+### Map
 
 Map is used to transform the elements in an array or set. Say you want to multiply each element in an array by 2. How would you do this using a for-loop?
 
@@ -23,7 +23,7 @@ let newArray = array.map({$0 * 2})
 
 Now, what's the big difference here? Map evaluates the statement inside those curly braces and assigns that value to the corresponding element in the array.
 
-###Filter
+### Filter
 
 Say you want to remove all numbers below 100 from an array. How would you do this using a for loop?
 
@@ -48,7 +48,7 @@ let filteredArray = array.filter({$0 >= 100})
 
 Boom! Just one line of code and done.
 
-###Reduce
+### Reduce
 
 
 Say you want to get the mean of all elements in an array. You know how you would do it with a for loop, so I'll skip to the reduce implementation.
