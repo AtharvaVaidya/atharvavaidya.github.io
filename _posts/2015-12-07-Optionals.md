@@ -23,11 +23,7 @@ var someVariable: Optional<Int>
 
 Notice something about the above type declaration? It means that the variable is an optional *of* type `Int`. So you have to 'unwrap' them to get their actual value.
 
-How do you 'unwrap' an Optional value? By doing this:
-
-{%highlight swift%}
-someVariable!
-{%endhighlight%}
+How do you 'unwrap' an Optional value? By doing this: `someVariable!`
 
 The '!' is functionally equivalent to casting the Optional<T> to T.
 
