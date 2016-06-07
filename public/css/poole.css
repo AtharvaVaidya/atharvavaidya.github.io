@@ -155,8 +155,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #000;
-  background-color: #fdfdfd;
+  color: #111;
+  background-color: #C2C2C2;
   border-radius: 3px;
 }
 pre {
@@ -170,7 +170,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #474747;
+  background-color: #C2C2C2;
 }
 pre code {
   padding: 0;
