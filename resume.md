@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 
-[Resume](Atharva Vaidya's Résumé.pdf)
+[My Resume](https://github.com/AtharvaVaidya/atharvavaidya.github.io/raw/master/Atharva%20Vaidya's%20Résumé.pdf)
