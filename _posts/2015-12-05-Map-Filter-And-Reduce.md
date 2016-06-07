@@ -9,11 +9,11 @@ What are they? They are functions that take functions as an argument.
 
 Map is used to transform the elements in an array or set. Say you want to multiply each element in an array by 2. How would you do this using a for-loop?
 
-{% highlight swift%}  for i in 0..<array.count { array[i] *= 2 } {% endhighlight %}
+{% highlight swift%}for i in 0..<array.count { array[i] *= 2 } {% endhighlight %}
 
 This is how you would do the same using a map function on the array:
 
-{% highlight swift%}  let newArray = array.map({$0 * 2}) {% endhighlight %}
+{% highlight swift%}let newArray = array.map({$0 * 2}) {% endhighlight %}
 
 Now, what's the big difference here? Map evaluates the statement inside those curly braces and assigns that value to the corresponding element in the array.
 
@@ -22,7 +22,6 @@ Now, what's the big difference here? Map evaluates the statement inside those cu
 Say you want to remove all numbers below 100 from an array. How would you do this using a for loop?
 
 {% highlight swift%}var filteredArray: [Int] = []
-
 for i in array {
 
 if i >= 100 { filteredArray.append(i) }
@@ -44,5 +43,5 @@ Say you want to get the mean of all elements in an array. You know how you would
 
 let mean = array.reduce(0, +) / Double(array.count){% endhighlight %}
 
-The first argument in the funtion is the initial element and the second argument is a function that specifies how to combine two elements. Since + is a funtion in swift we don't even need to write {% highlight swift%}  {$0 + $1} {%endhighlight%}
+The first argument in the funtion is the initial element and the second argument is a function that specifies how to combine two elements. Since + is a funtion in swift we don't even need to write `{$0 + $1}` 
 
