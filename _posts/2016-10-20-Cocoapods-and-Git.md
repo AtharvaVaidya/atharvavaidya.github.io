@@ -1,4 +1,4 @@
-#Cocoapods
+# Cocoapods
 
 1. Uninstall: `pod deintegrate`
 2. Install: `pod install`
@@ -14,17 +14,17 @@ Get help for a command: `--help`. Example: `pod search --help`.
 
 Verbose output flag: `--verbose`  
 
-#Git
+# Git
 
-##Scripts
+## Scripts
 
-####Push to Existing Git Repo
+#### Push to Existing Git Repo
 
 1. `git add .`
 2. `git commit -m "Your message for commit"`
 3. `git push`
 
-####Revert to previous commit
+#### Revert to previous commit
 
 1. Hard Delete All Current Changes: `git reset --hard`
 2. Save Current Work and then Revert: 
@@ -33,11 +33,11 @@ Verbose output flag: `--verbose`
 	 git stash pop
 	 `
 	 
-####Undo a git merge that hasn't been pushed
+#### Undo a git merge that hasn't been pushed
 
 1. `git reset --hard ORIG_HEAD`
 
-##Commands
+## Commands
 
 `//$branch_name is a branch name`
 
