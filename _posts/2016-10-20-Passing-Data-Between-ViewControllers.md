@@ -17,6 +17,7 @@ override func prepare(for segue: UIStoryBoardSegue, sender: Any?)
 ## In a TableViewDelegate Method
 
 {%highlight swift%}
+
 override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
 {
 	let segue = UIStoryboardSegue(identifier: "segueID", source: sourceVieController, destination: destinationViewController)
@@ -24,6 +25,7 @@ override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: Inde
 	destination.instanceVariable = someValue
 	segue.perform()
 }
+
 {%endhighlight%}
 
 
