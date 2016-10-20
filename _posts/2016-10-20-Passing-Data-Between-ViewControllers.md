@@ -1,5 +1,3 @@
-# How To Pass Data Between View Controllers?
-
 TLDR: Get a reference to the view controller you're going to segue to somehow and then do whatever you want.
 
 ## In prepareForSegue
