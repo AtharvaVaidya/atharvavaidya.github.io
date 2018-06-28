@@ -25,6 +25,5 @@ author:
 version:          1.0.0
 pages_list:  
   About: '/about'     
-  Projects: '/projects'
   Archive: '/archive'
   Feed: '/feed.xml'
