@@ -15,10 +15,11 @@ tagline:
 url:              http://atharva.co
 paginate:         1
 baseurl:          /
+root:             /
 author:
   name:           Atharva Vaidya
   url:            https://twitter.com/atharva_vaidya
-  email:          atharva.vaidya@drexel.edu
+  email:          contact@atharva.co
 
 # Custom vars
 version:          1.0.0
